@@ -1,0 +1,140 @@
+#auth-body {
+    background-color: #E6E6E6;
+}
+
+
+.header-color {
+    color: #3378ff;
+}
+
+.btn-color {
+    background-color: #3378ff;
+    color: #fff;
+}
+
+.nav-body {
+    background-color: black;
+    color: #fff;
+    padding: 25px;
+}
+
+.nav-body a {
+    color: #fff !important;
+}
+
+.nav-body a:hover {
+    color: #3378ff !important;
+
+}
+
+.nav-body a.active {
+    color: #3378ff !important;
+
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.dropdown-item {
+    color: #333 !important;
+}
+
+a.dropdown-item:hover {
+    color: #3378ff !important;
+    font-weight: bold;
+}
+
+.avatar-img {
+    width: 40px;
+    height: 40px;
+}
+
+.post-page {
+    display: block;
+    width: 100%;
+    border: 1px solid #DEE2E6;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
+    color: #333;
+}
+
+.post-time {
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+/* Comment */
+
+.comment-text {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.comment-text #text {
+    border-radius: 50px;
+}
+
+.comment-create {
+    border: none;
+}
+
+.icon-color {
+    color: #3378ff !important;
+}
+
+.comment-body {
+    display: inline-block;
+    border: 1px solid #DEE2E6;
+    padding: 10px 10px 0 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #333;
+
+}
+
+.comment-body .comment-edit {
+    margin-left: 20px;
+}
+
+.comment-body p {
+    display: inline;
+}
+
+.comment-edit-text #text {
+    border-radius: 10px;
+}
+
+.comment-edit-avatar {
+    margin-right: 10px;
+}
+
+/* .comment-body p {
+    line-height: 10px;
+} */
+
+@media screen and (min-width :378px) {
+
+    .post-page,
+    .post-auth-name {
+        width: 480px;
+        margin-left: 10px;
+    }
+
+    .post-name {
+        margin-left: 10px;
+        margin-top: 1px;
+    }
+
+    /* Comment */
+
+    .comment-text {
+        width: 480px;
+        margin-right: 20px;
+    }
+
+    /* .comment-card {
+        width: 480px;
+    } */
+}
